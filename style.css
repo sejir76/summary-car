@@ -18,8 +18,8 @@ body {
 }
 
 main {
-	width: 980px;
-	height: 800px;
+	width: 840px;
+	height: 720px;
 	border: solid red 10px;
 	background-color: lightgrey;
 }
