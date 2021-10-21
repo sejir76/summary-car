@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 /*Common*/
-* {
+/** {
 	box-sizing: border-box;
-}
-
-html,
-body {
+}*/
+/*body {
 	height: 100%;
-}
+}*/
 
 body {
 	font-family: sans-serif;
