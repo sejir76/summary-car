@@ -17,13 +17,17 @@ body {
 	align-items: center;
 }
 
-main {
+.ficha {
 	width: 400px;
 	height: 520px;
 	border: solid red 5px;
 	background-color: blue;
 }
 
+.cover{
+  width: 200px;
+  height: 100px;
+}
 p {
 	font-size: 16px;
 }
