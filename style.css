@@ -20,8 +20,8 @@ body {
 main {
 	width: 400px;
 	height: 520px;
-	border: solid red 10px;
-	background-color: lightgrey;
+	border: solid red 5px;
+	background-color: lightblue;
 }
 
 p {
