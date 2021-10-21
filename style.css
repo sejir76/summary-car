@@ -17,6 +17,11 @@ body {
 	align-items: center;
 }
 
+.anual-plan{
+  display: flex;
+  align-items: center;
+}
+
 .ficha {
 	width: 400px;
 	height: 520px;
