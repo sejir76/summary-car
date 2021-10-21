@@ -1,19 +1,95 @@
-html, body{
- height: 100%; 
+html,
+body {
+	height: 100%;
 }
 
-body{
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(225, 100%, 94%);
 }
 
-.tarjeta{
-    min-width: 320px;
-    background-image: linear-gradient(black, gray);
-    border-radius: 1rem;
-    padding: 2rem;
-    color: white;
-    box-shadow: 2px 2px 3px black
+.tarjeta {
+	min-width: 320px;
+	min-height: 800px;
+	background-color: #f2f4f6;
+	border-radius: 1rem;
+	padding: 0px 0px 30px;
+	box-shadow: 1px 1px 30px #88898a;
+}
+
+.foto {
+	display: flex;
+	justify-content: center;
+	aling-items: center;
+	margin: 0px, 0px;
+	margin-bottom: 3rem;
+}
+
+.cover {
+	with: 220px;
+	height: 400px;
+	border-radius: 1rem 1rem 0rem 0rem;
+	border: 0px 0px;
+}
+
+.titulo {
+	text-align: center;
+	font-size: 30px;
+}
+
+.texto {
+	text-align: center;
+	padding-bottom: 15px;
+	line-height: 20px;
+	color: hsl(224, 23%, 55%);
+	font-size: 18px;
+}
+
+.anual-plan {
+	width: 400px;
+	margin: auto;
+	padding: 15px;
+	border-radius: 20px;
+	background-color: #edf1ff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cambio {
+	cursor: pointer;
+}
+
+.pago {
+	cursor: pointer;
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	width: 430px;
+	margin: 30px auto;
+	padding: 25px;
+	border: none;
+	border-radius: 50px;
+	color: white;
+	background-color: hsl(245, 75%, 52%);
+	font-size: 30px;
+	text-align: center;
+	box-shadow: 5px 23px 26px 3px rgba(56, 41, 224, 0.22);
+}
+
+.cancel {
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	border: none;
+	margin: 45px auto;
+	padding: 25px;
+	color: hsl(224, 23%, 55%);
+	border-radius: 50px;
+	font-size: 30px;
+	cursor: pointer;
+	background-color: #f2f4f6;
 }
