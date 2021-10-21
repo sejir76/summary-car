@@ -19,7 +19,7 @@ body {
 
 .anual-plan{
   display: flex;
-  align-items: center;
+  align-content: center;
 }
 
 .ficha {
