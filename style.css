@@ -20,7 +20,7 @@ body {
 .ficha {
 	width: 400px;
 	height: 520px;
-	border: solid red 5px;
+	border: solid red 1px;
 	background-color: blue;
 }
 
