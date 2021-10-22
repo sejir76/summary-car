@@ -9,11 +9,19 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: hsl(225, 100%, 94%);
+	width: 1440px;
+	height: 980px;
 }
 
+main {
+	display: flexbox;
+	align-items: center;
+	justify-content: stretch;
+	margin: 0 auto;
+}
 .tarjeta {
-	min-width: 320px;
-	min-height: 800px;
+	width: auto;
+	height: auto;
 	background-color: #f2f4f6;
 	border-radius: 1rem;
 	padding: 0px 0px 30px;
@@ -21,18 +29,12 @@ body {
 }
 
 .foto {
-	display: flex;
-	justify-content: center;
-	aling-items: center;
-	margin: 0px, 0px;
 	margin-bottom: 3rem;
 }
 
 .cover {
-	with: 220px;
-	height: 400px;
 	border-radius: 1rem 1rem 0rem 0rem;
-	border: 0px 0px;
+	width: 470px;
 }
 
 .titulo {
@@ -42,7 +44,7 @@ body {
 
 .texto {
 	text-align: center;
-	padding-bottom: 15px;
+	padding-bottom: px;
 	line-height: 20px;
 	color: hsl(224, 23%, 55%);
 	font-size: 18px;
@@ -50,7 +52,7 @@ body {
 
 .anual-plan {
 	width: 400px;
-	margin: auto;
+	margin: 20px 20px 25px 20px;
 	padding: 15px;
 	border-radius: 20px;
 	background-color: #edf1ff;
@@ -77,7 +79,7 @@ body {
 	background-color: hsl(245, 75%, 52%);
 	font-size: 30px;
 	text-align: center;
-	box-shadow: 5px 23px 26px 3px rgba(56, 41, 224, 0.22);
+	box-shadow: 5px 18px 26px 3px rgba(56, 41, 224, 0.22);
 }
 
 .cancel {
@@ -85,8 +87,7 @@ body {
 	justify-items: center;
 	justify-content: center;
 	border: none;
-	margin: 45px auto;
-	padding: 25px;
+	margin: 40px auto;
 	color: hsl(224, 23%, 55%);
 	border-radius: 50px;
 	font-size: 30px;
